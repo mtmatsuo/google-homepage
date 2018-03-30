@@ -1,3 +1,8 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -5,13 +10,39 @@ ul {
 }
 
 li {
-  display: inline;
+	display: inline;
 }
 
-left {
+li a {
+	padding: 12px 12px;
+}
+
+.left {
   float: left;
 }
 
-right {
+.right {
   float: right;
+}
+
+div.logo {
+	padding-top: 175px;
+	text-align: center;
+}
+.form {
+	padding: 20px;
+	text-align: center;
+}
+
+.buttons {
+	text-align: center;
+	padding-right: 20px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	background-color: #dddddd;
+	padding: 10px;
 }
